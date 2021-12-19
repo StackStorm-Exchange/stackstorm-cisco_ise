@@ -4,7 +4,7 @@ description: Delete a single Native Supplicant Profile
 enabled: true
 entry_point: action.py
 runner_type: python-script
-name: native_supplicant_profile.get_all
+name: native_supplicant_profile.delete
 parameters:
   # Base/Well Known Params parsed in lib.base._prepare_kwargs() or modified in action.py
   http_method:

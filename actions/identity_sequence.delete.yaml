@@ -1,10 +1,10 @@
 ---
 # https://developer.cisco.com/docs/identity-services-engine
-description: Create an existing Identity Sequence
+description: Delete an existing Identity Sequence
 enabled: true
 entry_point: action.py
 runner_type: python-script
-name: identity_sequence.create
+name: identity_sequence.delete
 parameters:
   # Base/Well Known Params parsed in lib.base._prepare_kwargs() or modified in action.py
   http_method:
